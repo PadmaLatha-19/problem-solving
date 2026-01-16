@@ -27,7 +27,7 @@ public class RemoveSpaces {
         System.out.println("Enter a string:");
         String input = sc.nextLine();
 
-        String result = " ";
+        String result = "";
 
         for (int i = 0; i < input.length(); i++) {
             if (input.charAt(i) != ' ') {
